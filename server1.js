@@ -3,13 +3,11 @@ const pool = new Pool({
   user: 'pythonspot',
   host: 'localhost',
   database: 'users',
-  password: 'gg2017gg;',
+  password: 'secret',
   port: 5432,
 });
 
 
-//const query = client.query(
-//  'CREATE TABLE users(id SERIAL PRIMARY KEY, username VARCHAR(40) not null)');
 const express = require('express');
 const bodyParser = require('body-parser');
 
